@@ -444,15 +444,16 @@ MEDIA QUERIES
 
 @media screen and (max-width: 575px){
   #adventure h2{
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
   }
 
   .texta h2{
-    font-size: 50px !important;
+    font-size: 25px !important;
     width: 500px;
   }
   .texta p{
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: 5px;
   }
 
   .brand{
@@ -477,7 +478,13 @@ MEDIA QUERIES
     text-align: center;
   }
 
+  .graphic-grab h2{
+    font-size: 20px;
+  }
 
+  .pics .col-sm-3{
+    padding: 5px;
+  }
 }
 /******************
 WELCOME-NOT-HOME
@@ -770,6 +777,7 @@ MEDIA QUERY
     font-size: .5rem;
     display: none;
   }
+
 }
 @media screen and (max-width: 991px) and (min-width: 712px){
 
