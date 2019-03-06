@@ -866,11 +866,9 @@ SMALL SCREEN MEDIA QUERIES
   How it works page
   **/
 
-  #howimg {
-    background-position: 50%;
-  }
-
-  #aboutimg {
+  #aboutimg,
+  #howimg,
+  #contactimg {
     background-position: 50%;
   }
 
