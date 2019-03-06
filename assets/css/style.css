@@ -862,4 +862,19 @@ SMALL SCREEN MEDIA QUERIES
   .text-nothome p {
     visibility: hidden;
   }
+  /**
+  How it works page
+  **/
+
+  #howimg {
+    background-position: 50%;
+  }
+
+  #aboutimg {
+    background-position: 50%;
+  }
+
+  .aboutus .col-lg-4:nth-child(n + 1) {
+    margin-top: 100px;
+  }
 }
