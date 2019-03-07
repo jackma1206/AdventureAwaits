@@ -820,6 +820,9 @@ SMALL SCREEN MEDIA QUERIES
     margin-top: 5px;
   }
 
+  .texta {
+    width: 100%;
+  }
   .brand {
     float: none;
     position: relative;
