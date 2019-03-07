@@ -1,12 +1,12 @@
+html,
+body {
+  overflow-x: hidden;
+}
 * {
   padding: 0;
   margin: 0;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
 /*
   landing
 */
@@ -31,10 +31,7 @@ body {
 
 .mynav {
   width: 65%;
-  /*border: 1px solid black;*/
   float: right;
-  /*height: 50px;*/
-  /*border: 1px solid black;*/
 }
 
 .brand {
