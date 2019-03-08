@@ -1,7 +1,7 @@
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 * {
   padding: 0;
   margin: 0;
@@ -30,8 +30,11 @@ body {
 }
 
 .mynav {
-  width: 65%;
   float: right;
+}
+
+.mynav > i {
+  display: none;
 }
 
 .brand {
@@ -71,8 +74,7 @@ body {
 }
 
 .is-active {
-  color: rgb(116, 116, 116) !important;
-  border-bottom: 1px solid rgb(116, 116, 116);
+  border-bottom: 2px solid rgb(116, 116, 116);
 }
 
 .logo {
@@ -723,6 +725,7 @@ MEDIA QUERY
     display: none;
   }
 }
+
 @media screen and (max-width: 991px) and (min-width: 712px) {
   .about-card {
     margin-bottom: 110px !important;
@@ -807,7 +810,10 @@ SMALL SCREEN MEDIA QUERIES
     overflow-x: hidden;
   }
   #adventure h2 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
+  }
+  #adventure h2:nth-child(2) {
+    font-size: 2rem;
   }
 
   .texta h2 {
@@ -816,33 +822,72 @@ SMALL SCREEN MEDIA QUERIES
   }
   .texta p {
     font-size: 22px;
-    margin-top: 5px;
+    margin-top: 13px;
   }
 
   .texta {
     width: 100%;
   }
   .brand {
-    float: none;
+    float: left;
     position: relative;
     top: 10px;
-    left: 50%;
-    transform: translateX(-60%);
     padding: 0;
     margin: 0;
   }
+  .logo {
+    margin-left: 0;
+  }
   .mynav {
-    float: none;
+    /* float: right; */
     position: absolute;
-    left: 60%;
-    width: 100%;
+    left: 90%;
     transform: translateX(-50%);
   }
 
+  /*
+    Mobile Nav
+  */
+
   .topnav {
-    text-align: center;
+    margin-right: 0;
+    height: auto;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+  .bars {
+    display: inline-block;
+    color: white;
+    padding: 16px 14px;
+    width: 40px;
+    height: 40px;
+    top: 0;
   }
 
+  .mynav ul,
+  .mynav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #fff;
+    right: 10%;
+    border-radius: 4px 0 4px 4px;
+    border: 3px solid #444;
+  }
+
+  .mynav li {
+    text-align: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .mynav:hover ul {
+    display: block;
+  }
+  .mynav a {
+    color: #444;
+  }
   .graphic-grab h2 {
     font-size: 20px;
   }
@@ -862,7 +907,7 @@ SMALL SCREEN MEDIA QUERIES
   }
 
   .text-nothome {
-    top: 50%;
+    top: 55%;
   }
   .text-nothome h2 {
     font-size: 3rem;
@@ -878,6 +923,7 @@ SMALL SCREEN MEDIA QUERIES
   #howimg,
   #contactimg {
     background-position: 50%;
+    background-attachment: none;
   }
 
   .aboutus .col-lg-4:nth-child(n + 1) {

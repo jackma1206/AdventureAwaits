@@ -1,167 +1,227 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato:300"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
 
-<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato:300" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>Travel Agency Website</title>
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <body>
+    <section class="welcome-nothome" id="howimg">
+      <div class="darkoverlay">
+        <!-- Nav -->
+        <div class="wrapper">
+          <div class="brand">
+            <img src="assets/img/logo.png" alt="logo" class="logo" />
+          </div>
 
-  <title>Travel Agency Website</title>
-
-</head>
-
-<body>
-
-  <section class="welcome-nothome" id="howimg">
-    <div class="darkoverlay">
-      <!-- Nav -->
-      <div class="wrapper">
-        <div class="brand">
-          <img src="assets/img/logo.png" alt="logo" class="logo">
+          <div class="mynav">
+            <span class="bars"><i class="fa fa-bars"></i></span>
+            <ul class="topnav">
+              <li><a href="index.html">home</a></li>
+              <li><a href="signup.html">sign&nbsp;up</a></li>
+              <li>
+                <a href="howitworks.html" class="is-active"
+                  >how&nbsp;it&nbsp;works</a
+                >
+              </li>
+              <!--
+                <li><a href="#">the&nbsp;survey</a></li>
+                <li><a href="#">faq</a></li>
+                <li><a href="#">testimonial</a></li>
+              -->
+              <li><a href="aboutus.html">about&nbsp;us</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="mynav">
-          <ul class="topnav">
-            <li><a href="index.html" >home</a></li>
-            <li><a href="signup.html">sign&nbsp;up</a></li>
-            <li><a href="howitworks.html" class="is-active">how&nbsp;it&nbsp;works</a></li>
-            <!-- <li><a href="#">the&nbsp;survey</a></li>
-            <li><a href="#">faq</a></li>
-            <li><a href="#">testimonial</a></li> -->
-            <li><a href="aboutus.html">about&nbsp;us</a></li>
-            <li><a href="contact.html">contact</a></li>
+        <div class="text-nothome how">
+          <h2>How It Works</h2>
+          <p>Love traveling but loathe planning?</p>
+          <p>Be adventurous. Be spontaneous. Embrace the unknown.</p>
+          <p>
+            Let us plan your next adventure. The catch? Your destination is a
+            surprise.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="howitworks">
+      <div class="container">
+        <h3>Sound Crazy? Here's how it works!</h3>
+        <div class="row">
+          <div class="col-md-2 side-pic">
+            <i class="fas fa-question fa-5x text-white"></i>
+          </div>
+          <div class="col-md-10">
+            <h5>Step 1</h5>
+            <p>You answer a few quick quesstions. We'll need to know:</p>
+            <ul>
+              <li>Your budget per person (travel + accommodation)</li>
+              <li>Travel dates</li>
+              <li>Some travel preferences</li>
+              <li>Traveler information</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 side-pic">
+            <i class="fas fa-dollar-sign fa-5x text-white"></i>
+          </div>
+          <div class="col-md-10">
+            <h5>Step 2</h5>
+            <p>We book your travel + accommodation, given your budget.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 side-pic">
+            <i class="fas fa-envelope fa-5x text-white"></i>
+          </div>
+          <div class="col-md-10">
+            <h5>Step 3</h5>
+            <p>
+              A week before your departure, you receive an email. This email
+              contains:
+            </p>
+            <ul>
+              <li>The weather forcast for your mystery destination</li>
+              <li>
+                Recommended items to pack (a bathing suit, hiking boots, etc.)
+              </li>
+              <li>Any luggage size restrictions</li>
+              <li>
+                Where to go and when (Grand Central Station, Friday at 10:30AM)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 side-pic">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOnSURBVGhD7ZlZqE1RGMePMbMkPJhJyJghEZHxgRdTSR7kwfBAhqSUIRIlFJkyJSmFZCrTiyTJkKF4kDKEQiKZx//v23efzrlnn3v2OWfde86u/atf1trHXef77t53rW+tnYiJiYmJiQL1ZFs5QA6sJhm7nawvndJdrpP35V/5rwa9JzfIbrJg2sh98pdk0Dtym1wq58s18oh8L/0vvirnOnCJ3CLvSn55xLBftpJ5MUi+kn/kAdlZZqOOnCofSZI5JhtIV3SRByXJvJBDZChGyK/yjRzKhZDUlVslyVyRrp9x4iKmLzJnMp3kW/lSduRCASyWJMOj4Jr2ktiIscr4Lkgy7m+9wtkjSWaS9dzSV36XZ60XwBjJl6+1XnE0ljwGD2RtLjhmvSRWYs7glPwgm1qveBZKvmyU9dzSRH6WTCxpNJQ8Uoet54bWkllvu/Xcc0h+k9z9JMMlv72Z1nPHLXnbazpntiRmqoEk0yQXh1kvE7IeLccG2E9m47hkwUxlguRv56dkwZshg8bN5SJJzCslU7+xQHKxq/UyoUzg82zyGAWxS/J4+fSWP+RTuUMylQaNl6+npeEn0sF6mbSQrN7TAxwps0EijOuzWXIn/O/pIf1AgsYO40X5Wxq5EimUyonwh88faDPrefUctRQ1HaVIGKmMa0mftO+oqUSY9wmcEmaevCb5PF9ZKnxKkghQ2XJXuM5asEmuyEMeQ37WL1FKlgg0kr0q/s2XcZIxp1ivxIkUQ0vJmMykENlEgOn7oeRRuyHZqxhRS4Q6jvWJsZFq24haIkA5z9jLrFdBFBMhVsYm9iRxIjmonMhkmbpxmyN53n2Wy1le02Bmmug1jZ2SSh1KmshR+dxrGqzsVMI+tM95TeOj5GeguWSsjdYrcSIcLT3xmgYF302vabB3Oek1DbbLe72mbf6onFdbr8SJcNyaerDBtqGn1zRY7TnJ8WHTRGHpw36JShyqTKSP5D+6kjvAuEGfFSuxpiUyWLJScjGKEjsno3Y4/U6y6aESjZLETOzkkPgkOeyqjvOn6oaYz0tmt8RuyS1ib8C5VpQkZmJnUrETCF4TUHgx1RXidcmAl1KuhfW1ZM/Ndjfo86okZnaayVOUYmFaZdeXugUNA9MvhxG8ZykbeDHDXXksWdjCyOPBK4yi3ki5hveLqyQn+v6hAkldriR3jpmG9gnp105lSeCqWwG1Vmo9VdbEiZQbcSLlBm+Unsnx1kvnjOTVmUMSif9pK/GE55WohwAAAABJRU5ErkJggg=="
+            />
+          </div>
+          <div class="col-md-10">
+            <h5>Step 4</h5>
+            <p>
+              A few days before your trip, you receive an envelope in the mail,
+              which you do NOT open just yet. This envelope contains directions
+              to your accommodation, and your city guide. Since you don't have
+              time to do research on your destination, we do it for you! We'll
+              send you off with a curated list of recommendations for everything
+              from cafes to nightlife to rainy day activities. We promise you
+              won't be bored wherever you go. But remember, don't open this
+              envelope yet!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 side-pic">
+            <i class="fas fa-map-marker-alt fa-5x text-white"></i>
+          </div>
+          <div class="col-md-10">
+            <h5>Step 5</h5>
+            <p>
+              You go to the designated location at the given time, open your
+              envelope, and your Adventure Awaits!
+            </p>
+          </div>
+        </div>
+        <input
+          type="button"
+          id="getgoing"
+          class="btn btn-lg btn-outline-dark"
+          onclick="location.href='signup.html'"
+          value="Get Going"
+        />
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="back-to-top">
+        <a href="#top"><i class="fas fa-angle-up"></i></a>
+      </div>
+      <div class="container text-center">
+        <h3>Let's stay in touch</h3>
+        <p>Sign up to receive news and updates.</p>
+        <form action="#" class="mt-5">
+          <div class="row w-75 row-centered">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last Name" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+          </div>
+        </form>
+        <button id="signup" class="btn btn-outline-dark btn-lg">
+          SIGN UP FOR UPDATES
+        </button>
+        <hr id="footer-hr" />
+
+        <div class="footer-nav">
+          <ul class="social-media">
+            <li>
+              <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#" id="facebook"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" id="facebook"><i class="fab fa-tumblr"></i></a>
+            </li>
+            <li>
+              <a href="#" id="facebook"><i class="fab fa-instagram"></i></a>
+            </li>
           </ul>
         </div>
       </div>
+    </section>
 
-      <div class="text-nothome how">
-        <h2>How It Works</h2>
-        <p>Love traveling but loathe planning?</p>
-        <p>Be adventurous. Be spontaneous. Embrace the unknown.</p>
-        <p>Let us plan your next adventure. The catch? Your destination is a surprise.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="howitworks">
-    <div class="container">
-      <h3>Sound Crazy? Here's how it works!</h3>
-      <div class="row">
-        <div class="col-md-2 side-pic">
-          <i class="fas fa-question fa-5x text-white"></i>
-        </div>
-        <div class="col-md-10">
-          <h5>Step 1</h5>
-          <p>You answer a few quick quesstions. We'll need to know:</p>
-          <ul>
-            <li>Your budget per person (travel + accommodation)</li>
-            <li>Travel dates</li>
-            <li>Some travel preferences</li>
-            <li>Traveler information</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2 side-pic">
-          <i class="fas fa-dollar-sign fa-5x text-white"></i>
-        </div>
-        <div class="col-md-10">
-          <h5>Step 2</h5>
-          <p>We book your travel + accommodation, given your budget.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2 side-pic">
-          <i class="fas fa-envelope fa-5x text-white"></i>
-        </div>
-        <div class="col-md-10">
-          <h5>Step 3</h5>
-          <p>A week before your departure, you receive an email. This email contains:</p>
-          <ul>
-            <li>The weather forcast for your mystery destination</li>
-            <li>Recommended items to pack (a bathing suit, hiking boots, etc.)</li>
-            <li>Any luggage size restrictions</li>
-            <li>Where to go and when (Grand Central Station, Friday at 10:30AM)</li>
-          </ul>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-2 side-pic">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOnSURBVGhD7ZlZqE1RGMePMbMkPJhJyJghEZHxgRdTSR7kwfBAhqSUIRIlFJkyJSmFZCrTiyTJkKF4kDKEQiKZx//v23efzrlnn3v2OWfde86u/atf1trHXef77t53rW+tnYiJiYmJiQL1ZFs5QA6sJhm7nawvndJdrpP35V/5rwa9JzfIbrJg2sh98pdk0Dtym1wq58s18oh8L/0vvirnOnCJ3CLvSn55xLBftpJ5MUi+kn/kAdlZZqOOnCofSZI5JhtIV3SRByXJvJBDZChGyK/yjRzKhZDUlVslyVyRrp9x4iKmLzJnMp3kW/lSduRCASyWJMOj4Jr2ktiIscr4Lkgy7m+9wtkjSWaS9dzSV36XZ60XwBjJl6+1XnE0ljwGD2RtLjhmvSRWYs7glPwgm1qveBZKvmyU9dzSRH6WTCxpNJQ8Uoet54bWkllvu/Xcc0h+k9z9JMMlv72Z1nPHLXnbazpntiRmqoEk0yQXh1kvE7IeLccG2E9m47hkwUxlguRv56dkwZshg8bN5SJJzCslU7+xQHKxq/UyoUzg82zyGAWxS/J4+fSWP+RTuUMylQaNl6+npeEn0sF6mbSQrN7TAxwps0EijOuzWXIn/O/pIf1AgsYO40X5Wxq5EimUyonwh88faDPrefUctRQ1HaVIGKmMa0mftO+oqUSY9wmcEmaevCb5PF9ZKnxKkghQ2XJXuM5asEmuyEMeQ37WL1FKlgg0kr0q/s2XcZIxp1ivxIkUQ0vJmMykENlEgOn7oeRRuyHZqxhRS4Q6jvWJsZFq24haIkA5z9jLrFdBFBMhVsYm9iRxIjmonMhkmbpxmyN53n2Wy1le02Bmmug1jZ2SSh1KmshR+dxrGqzsVMI+tM95TeOj5GeguWSsjdYrcSIcLT3xmgYF302vabB3Oek1DbbLe72mbf6onFdbr8SJcNyaerDBtqGn1zRY7TnJ8WHTRGHpw36JShyqTKSP5D+6kjvAuEGfFSuxpiUyWLJScjGKEjsno3Y4/U6y6aESjZLETOzkkPgkOeyqjvOn6oaYz0tmt8RuyS1ib8C5VpQkZmJnUrETCF4TUHgx1RXidcmAl1KuhfW1ZM/Ndjfo86okZnaayVOUYmFaZdeXugUNA9MvhxG8ZykbeDHDXXksWdjCyOPBK4yi3ki5hveLqyQn+v6hAkldriR3jpmG9gnp105lSeCqWwG1Vmo9VdbEiZQbcSLlBm+Unsnx1kvnjOTVmUMSif9pK/GE55WohwAAAABJRU5ErkJggg==">
-        </div>
-        <div class="col-md-10">
-          <h5>Step 4</h5>
-          <p>A few days before your trip, you receive an envelope in the mail, which you do NOT open just yet. This envelope contains directions to your accommodation, and your city guide. Since you don't have time to do research on your destination, we do it for you! We'll send you off with a curated list of recommendations for everything from cafes to nightlife to rainy day activities. We promise you won't be bored wherever you go.
-
-But remember, don't open this envelope yet!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2 side-pic">
-          <i class="fas fa-map-marker-alt fa-5x text-white"></i>
-        </div>
-        <div class="col-md-10">
-          <h5>Step 5</h5>
-          <p>You go to the designated location at the given time, open your envelope, and your Adventure Awaits!</p>
-        </div>
-      </div>
-      <input type="button" id="getgoing" class="btn btn-lg btn-outline-dark" onclick="location.href='signup.html'" value="Get Going">
-    </div>
-
-  </section>
-
-
-
-  <section class="footer">
-    <div class="back-to-top">
-      <a href="#top"><i class="fas fa-angle-up"></i></a>
-    </div>
-    <div class="container text-center">
-      <h3>Let's stay in touch</h3>
-      <p>Sign up to receive news and updates.</p>
-      <form action="#" class="mt-5">
-        <div class="row w-75 row-centered">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First Name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last Name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Email">
-          </div>
-        </div>
-      </form>
-      <button id="signup" class="btn btn-outline-dark btn-lg">SIGN UP FOR UPDATES</button>
-      <hr id="footer-hr">
-
-      <div class="footer-nav">
-        <ul class="social-media">
-          <li><a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#" id="facebook"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#" id="facebook"><i class="fab fa-tumblr"></i></a></li>
-          <li><a href="#" id="facebook"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <!--Bootstrap JS/JQUERY CDN-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- Script.js -->
-  <script src="assets/js/script.js"></script>
-</body>
-
+    <!-- Bootstrap JS/JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script.js -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
